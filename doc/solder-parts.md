@@ -16,12 +16,16 @@ After soldering bend the fuse like in the image.
 The Electrolytic capacitor is __polarized__. The short leg is cathode. (square pad on pcb)
 
 ### Resistors 1.5k Ohm (R1, R7, R8)
+- brown, green, black, brown, brown
 
 ### Resistors 75 Ohm (R2, R3)
+- purple, green, black, gold, brown
 
 ### Resistors 10k Ohm (R4)
+- brown, black, black, red, brown
 
 ### Resistors 5.1k Ohm (R9, R10)
+- green, brown, black, brown, brown
 
 ### USB-C connector (J1)
 Double check that are no short between the pad's.
