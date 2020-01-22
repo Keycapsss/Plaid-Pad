@@ -5,6 +5,7 @@ Diodes are __polarized__. The black line on the diode (cathode) must face to the
 The 1N4148 diodes look similar as Zener diodes. Make sure to not confuse both diodes.
 
 You can use some tape to hold the diodes in place and solder all in one pass.
+
 <img src="img/plaid-pad-1N4148-diodes-1.jpg" height=400>
 
 ### Zener diodes (D49, D50)
