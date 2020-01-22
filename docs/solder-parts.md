@@ -19,7 +19,7 @@ After soldering bend the fuse like in the image.
 <img src="img/plaid-pad-resettable-fuse-1.jpg" height=400>
 
 ### Electrolytic capacitor(C3)
-The Electrolytic capacitor is __polarized__. The short leg is cathode. (square pad on pcb)
+The Electrolytic capacitor is __polarized__. The short leg is cathode (square pad on pcb).
 
 <img src="img/plaid-pad-electrolytic-capacitor-1.jpg" height=400>
 
@@ -50,6 +50,8 @@ Best to use a magnifier.
 <img src="img/plaid-pad-usb-c-connector-1.jpg" height=400>
 
 ### Led's (LED1, LED2)
+The led's are __polarized__. The short leg is cathode (square pad on pcb).
+
 Led1 indicates that the Plaid-Pad is powered and constantly on.
 I prefer to solder the red led on LED1, because the led is less bright.
 
@@ -85,5 +87,5 @@ The ATMEGA328 is a __polarized__. Check the notch on the chip and IC Socket.
 
 ## Check list before connecting USB
 - No short on the USB-C connector pad's
-- Direction of polarized components (ATMEGA328p, diode, resettable fuse, electrolytic capacitor)
+- Direction of polarized components (ATMEGA328p, diode, resettable fuse, electrolytic capacitor, led)
 - Resistor value
