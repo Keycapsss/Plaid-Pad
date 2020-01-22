@@ -9,7 +9,7 @@ It's a great companion to the Plaid keyboard by [hsgw](https://github.com/hsgw/)
 * Hardware Supported: ATmega328P with VUSB ([see Bootloader section](#Bootloader))
 * Hardware Availability: [Keycapsss.com](https://keycapsss.com)
 
-## [Build guide](/doc/solder-parts.md)
+## [Build guide](/docs/solder-parts.md)
 
 ## Bootloader
 - same usbasploader as Plaid ([Instruction](https://github.com/hsgw/plaid/blob/master/doc/en/bootloader.md), [Repository](https://github.com/hsgw/USBaspLoader/tree/plaid))
