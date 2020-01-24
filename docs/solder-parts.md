@@ -78,8 +78,6 @@ I prefer to solder the red LED on `LED1`, because the LED is less bright.
 
 ### Crystal (Y1)
 
-The label on the crystal has the same direction as the labels on the PCB.
-
 <img src="img/plaid-pad-crystal-1.jpg" height=400>
 
 ### Capacitors 22pF (C1, C2)
@@ -90,7 +88,7 @@ They have a small pitch (2.5mm).
 
 ### Capacitors 0.1uF (C4, C5)
 
-These have a larger pitch of 5mm. Simply bend the legs to match the pitch.
+These have a larger pitch of 5mm.
 
 <img src="img/plaid-pad-capacitors-0.1uf-1.jpg" height=400>
 
@@ -106,7 +104,7 @@ The IC socket is __polarized__. Check the notch on the silk and the IC Socket.
 
 ### ATMEGA328p chip
 
-The ATMEGA328 has to be attached in a __specific direction__.. Check the notch on the chip and IC Socket - they need to match. Here, the notch faces the crystal at `Y1`.
+The ATMEGA328 has to be attached in a __specific direction__. Check the notch on the chip and IC Socket - they need to match. Here, the notch faces the crystal at `Y1`.
 
 <img src="img/plaid-pad-atmega329p-1.jpg" height=400>
 
