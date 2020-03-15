@@ -12,6 +12,19 @@ It's a great companion to the Plaid keyboard by [hsgw](https://github.com/hsgw/)
 
 ## [Build guide](/docs/solder-parts.md)
 
+## [QMK Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/keycapsss/plaid_pad)
+_Bootloader and Firmware (default keymap) are already on the ATmega328P chip._
+
+Make example for this keyboard (after setting up your build environment):
+
+    make keycapsss/plaid_pad:default
+
+Flashing example for this keyboard:
+
+    make keycapsss/plaid_pad:default:flash
+
+See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+
 ## Bootloader
 - same usbasploader as Plaid ([Instruction](https://github.com/hsgw/plaid/blob/master/doc/en/bootloader.md), [Repository](https://github.com/hsgw/USBaspLoader/tree/plaid))
 

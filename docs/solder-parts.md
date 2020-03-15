@@ -113,3 +113,6 @@ The ATMEGA328 has to be attached in a __specific direction__. Check the notch on
 - No short cuts on the USB-C connector pads
 - Direction of polarized and directional components is correct (ATMEGA328p, diode, resettable fuse, electrolytic capacitor, LEDs)
 - Resistors with correct values are attached to the target locations
+
+_Bootloader and Firmware (default keymap) are already on the ATmega328P chip.
+Everything should work after soldering._
