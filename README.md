@@ -1,7 +1,11 @@
 # Plaid-Pad
 
-<img src="https://i.imgur.com/Jovhxpr.jpg" width="400">
-<img src="https://i.imgur.com/V82cMqq.png" width="400">
+<img src="https://i.imgur.com/Jovhxpr.jpg" width="400"> <img src="https://i.imgur.com/V82cMqq.png" width="400">
+
+- [Build guide](/docs/solder-parts.md)
+- [QMK Firmware](#qmk-firmware)
+- [Bootloader](#bootloader)
+- [3D printing parts](#3d-printing-parts)
 
 A 4x4 numpad with only through hole components.  
 It's a great companion to the Plaid keyboard by [hsgw](https://github.com/hsgw/) and heavily inspired by it.
@@ -9,8 +13,6 @@ It's a great companion to the Plaid keyboard by [hsgw](https://github.com/hsgw/)
 * Keyboard Maintainer: BenRoe [Github](https://github.com/BenRoe) / [Twitter](https://twitter.com/keycapsss)
 * Hardware Supported: ATmega328P with VUSB ([see Bootloader section](#Bootloader))
 * Hardware Availability: [Keycapsss.com](https://keycapsss.com)
-
-## [Build guide](/docs/solder-parts.md)
 
 ## [QMK Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/keycapsss/plaid_pad)
 _Bootloader and Firmware (default keymap) are already on the ATmega328P chip._
@@ -29,3 +31,6 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 - same usbasploader as Plaid ([Instruction](https://github.com/hsgw/plaid/blob/master/doc/en/bootloader.md), [Repository](https://github.com/hsgw/USBaspLoader/tree/plaid))
 
 * same `usbasploader` as used for Plaid ([Instructions](https://github.com/hsgw/plaid/blob/master/doc/en/bootloader.md), [Repository](https://github.com/hsgw/USBaspLoader/tree/plaid))
+
+## 3D printing parts
+
