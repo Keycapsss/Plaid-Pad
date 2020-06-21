@@ -5,7 +5,8 @@
 - [Build guide](/docs/solder-parts.md)
 - [QMK Firmware](#qmk-firmware)
 - [Bootloader](#bootloader)
-- [3D printing parts](#3d-printing-parts)
+- [3D printing parts](/3d-print) (simple case)
+- [Laser cut drawings](/lasercut) (guard plate, dampening foam)
 
 A 4x4 numpad with only through hole components.  
 It's a great companion to the Plaid keyboard by [hsgw](https://github.com/hsgw/) and heavily inspired by it.
