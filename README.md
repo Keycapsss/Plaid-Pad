@@ -29,9 +29,22 @@ Flashing example for this keyboard:
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
 ## Bootloader
-- same usbasploader as Plaid ([Instruction](https://github.com/hsgw/plaid/blob/master/doc/en/bootloader.md), [Repository](https://github.com/hsgw/USBaspLoader/tree/plaid))
+- same `usbasploader` as used for Plaid ([Instructions](https://github.com/hsgw/plaid/blob/master/doc/en/bootloader.md), [Repository](https://github.com/hsgw/USBaspLoader/tree/plaid))
 
-* same `usbasploader` as used for Plaid ([Instructions](https://github.com/hsgw/plaid/blob/master/doc/en/bootloader.md), [Repository](https://github.com/hsgw/USBaspLoader/tree/plaid))
+### Enter bootloader mode (to flash a new firmware)
+- Plug in the USB cable
+- Push and hold RESET switch
+- Push and hold BOOT switch
+- Release RESET switch
+- Release BOOT switch
+
+or an alternative method:
+- Unplug the USB cable
+- Hold down the BOOT switch
+- Plug in the USB cable
+- Release the BOOT switch
+
+If you succeed to enter bootloader mode, you can see usbasp in device manager, or `*** USBAsp device connected` in [QMK Toolbox](https://github.com/qmk/qmk_toolbox).
 
 ## 3D printing parts
 
