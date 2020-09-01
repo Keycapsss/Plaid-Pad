@@ -8,7 +8,22 @@
 - [3D printing parts](/3d-print) (simple case)
 - [Laser cut drawings](/lasercut) (guard plate, dampening foam)
 
-A 4x4 numpad with only through hole components.  
+
+A 4x4 numpad/macro pad with only through hole components. It supports up to 4 rotary encoder. The positions for the encoder are interchangeable with keyboard switches.  
+
+Below you can see the possible positions for the 4 rotary encoder.  
+*If you place a encoder in the top left corner (E1), you can't use another encoder in the lower right corner.*
+```
+,-----------------------,
+|  E1 |  E2 |  E3 |  E4 |
+|-----+-----+-----+-----|
+|     |     |     |  E3 |
+|-----+-----+-----+-----|
+|     |     |     |  E2 |
+|-----+-----+-----+-----|
+|     |     |     |  E1 |
+`-----------------------'
+```  
 It's a great companion to the Plaid keyboard by [hsgw](https://github.com/hsgw/) and heavily inspired by it.
 
 * Keyboard Maintainer: BenRoe [Github](https://github.com/BenRoe) / [Twitter](https://twitter.com/keycapsss)
