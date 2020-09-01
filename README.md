@@ -30,16 +30,20 @@ It's a great companion to the Plaid keyboard by [hsgw](https://github.com/hsgw/)
 * Hardware Supported: ATmega328P with VUSB ([see Bootloader section](#Bootloader))
 * Hardware Availability: [Keycapsss.com](https://keycapsss.com)
 
-## [QMK Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/keycapsss/plaid_pad)
-_Bootloader and Firmware (default keymap) are already on the ATmega328P chip._
+## QMK Firmware
+_Bootloader and Firmware ([default keymap](https://github.com/qmk/qmk_firmware/tree/master/keyboards/keycapsss/plaid_pad)) are already on the ATmega328P chip._
 
-Make example for this keyboard (after setting up your build environment):
+Make example for this keyboard (after [setting up your build environment](https://docs.qmk.fm/#/getting_started_build_tools)):
 
     make keycapsss/plaid_pad:default
+    // or
+    qmk compile -kb keycapsss/plaid_pad -km default
 
-Flashing example for this keyboard:
+Flashing example for this keyboard ():
 
     make keycapsss/plaid_pad:default:flash
+    // or
+    qmk flash -kb keycapsss/plaid_pad -km default
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
@@ -61,5 +65,4 @@ or an alternative method:
 
 If you succeed to enter bootloader mode, you can see usbasp in device manager, or `*** USBAsp device connected` in [QMK Toolbox](https://github.com/qmk/qmk_toolbox).
 
-## 3D printing parts
 
