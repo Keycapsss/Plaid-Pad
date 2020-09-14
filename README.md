@@ -9,6 +9,7 @@ A 4x4 numpad/macro pad with only through hole components. It supports up to 4 ro
 - [**Build guide**](/docs/solder-parts.md)
 - [QMK Firmware](#qmk-firmware)
 - [Bootloader](#bootloader)
+- [Changelog](#changelog)
 - [3D printing parts](/3d-print) (simple case)
 - [Laser cut drawings](/lasercut) (guard plate, dampening foam)
 
@@ -69,4 +70,15 @@ or an alternative method:
 
 If you succeed to enter bootloader mode, you can see usbasp in device manager, or `*** USBAsp device connected` in [QMK Toolbox](https://github.com/qmk/qmk_toolbox).
 
+## CHANGELOG
 
+### Rev1
+* Initial pcb design
+* Optional up to 2 Rotary Encoder
+
+### Rev2 (Rev1.1)
+
+* Pcb's with the label Rev1.1 are Rev2 (fixed with the second ordered batch)
+* Optional: up to 4 Rotary Encoder
+* Support for 3pin switches with the new top plate 
+* Add a small PLAID-PAD text beneath the USB-C connector
