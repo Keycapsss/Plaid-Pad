@@ -36,7 +36,28 @@ It's a great companion to the Plaid keyboard by [hsgw](https://github.com/hsgw/)
 * Hardware Availability: [Keycapsss.com](https://keycapsss.com)
 
 ## QMK Firmware
-_Bootloader and Firmware ([default keymap](https://github.com/qmk/qmk_firmware/tree/master/keyboards/keycapsss/plaid_pad)) are already on the ATmega328P chip._
+_Bootloader ([USBaspLoader](https://github.com/baerwolf/USBaspLoader)) and Firmware ([via keymap](https://github.com/qmk/qmk_firmware/tree/master/keyboards/keycapsss/plaid_pad)) are already on the ATmega328P chip._
+
+### QMK with VIA support
+
+At present the VIA team have not merged the Plaid-Pad.  
+This is not a problem. You can use the VIA keyboard Configurator, with some additional steps.
+
+_Plaid-Pad Kit's shipped before 11.09.2020 are flashed with the QMK Default Keymap._
+_To use VIA, compile the VIA Keymap with the following command and flash it with [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) on the Plaid-Pad ([enter Bootloader Mode](#enter-bootloader-mode-to-flash-a-new-firmware))._
+```bash
+qmk compile -kb keycapsss/plaid_pad -km via
+``` 
+
+1. Download the VIA software from [here](https://github.com/the-via/releases/releases/tag/v1.3.1)
+2. Download the Plaid-Pad VIA Definition file from [here](https://keycapsss.com/media/archive/80/98/6c/via-plaid_pad.zip) and extract the .json file
+3. Open the VIA Configurator, go to the `SETTINGS` Tab and active `Show Design tab`
+4. Connect the Plaid-Pad to the computer with a USB cable
+5. Go to the `DESIGN` tab in VIA and Drag n Drop the Plaid-Pad Definition file (.json)
+6. A 4x4 layout should appear
+7. Switch to the `CONFIGURE` tab and change the keymap to your needs
+ 
+### QMK Default Keymap
 
 Make example for this keyboard (after [setting up your build environment](https://docs.qmk.fm/#/getting_started_build_tools)):
 
