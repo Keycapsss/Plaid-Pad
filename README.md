@@ -2,14 +2,17 @@
 
 <img src="https://i.imgur.com/Jovhxpr.jpg" width="400"> <img src="https://i.imgur.com/V82cMqq.png" width="400">
 
-- [Build guide](/docs/solder-parts.md)
+A 4x4 numpad/macro pad with only through hole components. It supports up to 4 rotary encoder. The positions for the encoder are interchangeable with keyboard switches.  
+
+---
+
+- [**Build guide**](/docs/solder-parts.md)
 - [QMK Firmware](#qmk-firmware)
 - [Bootloader](#bootloader)
 - [3D printing parts](/3d-print) (simple case)
 - [Laser cut drawings](/lasercut) (guard plate, dampening foam)
 
-
-A 4x4 numpad/macro pad with only through hole components. It supports up to 4 rotary encoder. The positions for the encoder are interchangeable with keyboard switches.  
+---
 
 Below you can see the possible positions for the 4 rotary encoder (Rev1 only 2).  
 *If you place a encoder in the top left corner (E1), you can't use another encoder in the lower right corner.*
