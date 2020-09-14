@@ -18,7 +18,7 @@ A 4x4 numpad/macro pad with only through hole components. It supports up to 4 ro
 Below you can see the possible positions for the 4 rotary encoder (Rev1 only 2).  
 *If you place a encoder in the top left corner (E1), you can't use another encoder in the lower right corner.*
 ```
-Rev1.1                      Rev1
+Rev2                      Rev1
 ,-----------------------,   ,-----------------------,
 |  E1 |  E2 |  E3 |  E4 |   |  E1 |     |     |  E2 |
 |-----+-----+-----+-----|   |-----+-----+-----+-----|
@@ -55,7 +55,7 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 ## Bootloader
 - same `usbasploader` as used for Plaid ([Instructions](https://github.com/hsgw/plaid/blob/master/doc/en/bootloader.md), [Repository](https://github.com/hsgw/USBaspLoader/tree/plaid))
 
-### Enter bootloader mode (to flash a new firmware)
+### Enter Bootloader Mode (to flash a new firmware)
 - Plug in the USB cable
 - Push and hold RESET switch
 - Push and hold BOOT switch
