@@ -1,6 +1,6 @@
 # Plaid-Pad
 
-<img src="https://i.imgur.com/Jovhxpr.jpg" width="400"> <img src="https://i.imgur.com/V82cMqq.png" width="400">
+<img src="https://i.imgur.com/Jovhxpr.jpg" width="400">
 
 A 4x4 numpad/macro pad with only through hole components. It supports up to 4 rotary encoder. The positions for the encoder are interchangeable with keyboard switches.  
 
@@ -14,6 +14,10 @@ A 4x4 numpad/macro pad with only through hole components. It supports up to 4 ro
 - [Laser cut drawings](/lasercut) (guard plate, dampening foam)
 
 ---
+
+## Keymap
+
+<img src="https://i.imgur.com/V82cMqq.png" width="400">
 
 Below you can see the possible positions for the 4 rotary encoder (Rev1 only 2).  
 *If you place a encoder in the top left corner (E1), you can't use another encoder in the lower right corner.*
@@ -29,6 +33,14 @@ Rev2                      Rev1
 |     |     |     |  E1 |   |     |     |     |     |
 `-----------------------'   `-----------------------'
 ```  
+
+- Encoder E1 performs a tap on KC_F17 and KC_F18
+- Encoder E2 performs a tap on KC_F19 and KC_F20
+- Encoder E3 performs a tap on KC_F21 and KC_F22
+- Encoder E4 performs a tap on KC_F23 and KC_F24
+
+The F17-F24 keys are intended to be customized via [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) (OSX), or [AutoHotkey](https://github.com/Lexikos/AutoHotkey_L) (WIN).
+
 It's a great companion to the Plaid keyboard by [hsgw](https://github.com/hsgw/) and heavily inspired by it.
 
 * Keyboard Maintainer: BenRoe [Github](https://github.com/BenRoe) / [Twitter](https://twitter.com/keycapsss)
