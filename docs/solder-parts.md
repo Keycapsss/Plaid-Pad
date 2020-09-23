@@ -114,5 +114,26 @@ The ATMEGA328 has to be attached in a __specific direction__. Check the notch on
 - Direction of polarized and directional components is correct (ATMEGA328p, diode, resettable fuse, electrolytic capacitor, LEDs)
 - Resistors with correct values are attached to the target locations
 
-_Bootloader and Firmware (default keymap) are already on the ATmega328P chip.
+## Test 
+_Bootloader and Firmware (VIA keymap) are already on the ATmega328P chip.  
 Everything should work after soldering._
+
+Connect the Plaid-Pad to your computer and open the [QMK-Test-Site](https://config.qmk.fm/#/test).
+
+Check whether all switches will work. In order to do so, short the solder pads with tweezers.
+
+<img src="img/plaid-pad-tweezers-switch-test-1.jpg" height=400>
+
+
+## Solder switches
+
+**Before you solder the switches,** attach the 4x 5mm spacer to the pcb with the M2x4mm screws.  
+**Do not solder the rotary encoder yet.**
+
+<img src="img/plaid-pad-top-plate-1.jpg" height=400> <img src="img/plaid-pad-top-plate-2.jpg" height=400>
+
+Attach all switches to the top plate and place (not solder) the desired amount of the rotary encoder on the pcb ([more information about rotary encoder placement](https://github.com/BenRoe/Plaid-Pad#keymap)).
+This way the rotary encoder have room to move and fit perfect into the top plate cutout.
+
+Ensure that the 4x spacer's are assembled and put the top plate with the switches on the front side of the pcb.  
+Solder the switches and rotary encoder from the bottom side.
