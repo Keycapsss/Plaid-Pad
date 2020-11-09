@@ -1,4 +1,4 @@
-# Build guide
+# Build guide for the Plaid-Pad
 
 ### Diodes 1N4148 (D1-D16)
 
@@ -125,7 +125,7 @@ Check whether all switches will work. In order to do so, short the solder pads w
 <img src="img/plaid-pad-tweezers-switch-test-1.jpg" height=400>
 
 
-## Solder switches
+## Case assembly 
 
 **Before you solder the switches,** attach the 4x 5mm spacer to the pcb with the M2x4mm screws.  
 **Do not solder the rotary encoder yet.**
