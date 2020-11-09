@@ -61,6 +61,8 @@ qmk compile -kb keycapsss/plaid_pad -km via
 1. Download the VIA software from [here](https://github.com/the-via/releases/releases/tag/v1.3.1)
 2. Connect the Plaid-Pad to the computer with a USB cable
 3. Open VIA, switch to the `CONFIGURE` tab and change the keymap to your needs (automatic save)
+
+_The current VIA version can't change the rotary encoder function._
  
 ### QMK Default Keymap
 
@@ -77,6 +79,8 @@ Flashing example for this keyboard ():
     qmk flash -kb keycapsss/plaid_pad -km default
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+
+You can find the rotary encoder code [here](https://github.com/qmk/qmk_firmware/blob/95bbd799a4f86dac37fdf2354e008d2fed7f6660/keyboards/keycapsss/plaid_pad/keymaps/via/keymap.c#L71).
 
 ## Bootloader
 - same `usbasploader` as used for Plaid ([Instructions](https://github.com/hsgw/plaid/blob/master/doc/en/bootloader.md), [Repository](https://github.com/hsgw/USBaspLoader/tree/plaid))
