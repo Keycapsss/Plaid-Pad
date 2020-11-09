@@ -127,13 +127,53 @@ Check whether all switches will work. In order to do so, short the solder pads w
 
 ## Case assembly 
 
-**Before you solder the switches,** attach the 4x 5mm spacer to the pcb with the M2x4mm screws.  
-**Do not solder the rotary encoder yet.**
+### Rev2 only (Rev2.1 [skip](#rev21) this step)
+ 
+__Before you solder the switches,__ attach the 4x 5mm spacer to the pcb with the M2x4mm screws.  
+__Do not solder the rotary encoder yet.__
 
 <img src="img/plaid-pad-top-plate-1.jpg" height=400> <img src="img/plaid-pad-top-plate-2.jpg" height=400>
 
-Attach all switches to the top plate and place (not solder) the desired amount of the rotary encoder on the pcb ([more information about rotary encoder placement](https://github.com/BenRoe/Plaid-Pad#keymap)).
+---
+
+### Rev2.1
+
+Attach all switches to the top plate and place __(not solder)__ the desired amount of the rotary encoder on the pcb ([more information about rotary encoder placement](https://github.com/BenRoe/Plaid-Pad#keymap)).
+
+<img src="img/plaid-pad-top-plate-3.jpg" height=400>
+
 This way the rotary encoder have room to move and fit perfect into the top plate cutout.
 
-Ensure that the 4x spacer's are assembled and put the top plate with the switches on the front side of the pcb.  
-Solder the switches and rotary encoder from the bottom side.
+### Rotary encoder and Choc (low profile) switches (skip if you use MX switches)
+
+If you use Choc (low profile) switches, you have to bend the 5 pins of the rotary encoder with a pliers, to fit into the top plate.
+
+<img src="img/rotary-encoder-pin-adjustment-1.jpg" height=400>
+
+---
+
+Put the top plate with the switches on the front side of the pcb.  
+Solder the switches and rotary encoder from the bottom side.  
+__Ensure that there is no gap between the switch bottom and the pcb. Same for the encoder.__ 
+
+<img src="img/plaid-pad-top-plate-4.jpg" height=400>
+
+Attach the spacer to the bottom plate.  
+Optional: Put the dampening foam on the bottom plate.
+
+Put the assembled top plate with the switches and pcb on the bottom plate.
+
+<img src="img/plaid-pad-bottom-plate-1.jpg" height=400>
+
+Screw the 4x 10mm spacer for the guard plate on 12mm prominent screws from below.
+Remove the protection film on both sides from the acrylic guard plate.
+Fix the acrylic guard plate and the pcb with the 4mm screws.
+
+<img src="img/plaid-pad-final-1.jpg" height=400>
+
+Put the rubber feeds on the back of the Plaid-Pad.
+
+__The assembly is done.__
+  
+You can change the keymap with [VIA](https://github.com/BenRoe/Plaid-Pad#qmk-with-via-support), or change the [QMK keymap](https://github.com/BenRoe/Plaid-Pad#qmk-default-keymap) file and reflash the firmware.  
+_The current VIA version can't change the rotary encoder function._
