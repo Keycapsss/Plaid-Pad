@@ -108,3 +108,9 @@ If you succeed to enter bootloader mode, you can see usbasp in device manager, o
 * Optional: up to 4 Rotary Encoder
 * Support for 3pin switches with the new top plate 
 * Add a small PLAID-PAD text beneath the USB-C connector
+
+### Rev2.1
+
+* Bigger solder pads for the USB-C connector
+* Support for Choc V2 switches _(issue that the keycap touch the mounting screw, if bottoming out)_
+* Changed case mounting style _(spacer go through the pcb and screwed on the top and bottom plate)_
