@@ -1,6 +1,6 @@
 # Plaid-Pad
 
-<img src="https://i.imgur.com/Jovhxpr.jpg" width="400">
+<img src="https://i.imgur.com/KHPId3G.jpg" width="400">
 
 A 4x4 numpad/macro pad with only through hole components. It supports up to 4 rotary encoder. The positions for the encoder are interchangeable with keyboard switches.  
 
