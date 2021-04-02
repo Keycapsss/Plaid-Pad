@@ -28,13 +28,13 @@ The Electrolytic capacitor is __polarized__. The short leg is cathode which need
 
 <img src="img/plaid-pad-electrolytic-capacitor-1.jpg" maxheight=400>
 
-### Resistors 1.5k Ohm (R1, R7, R8)
+### Resistors 1.5k Ohm (R1, R7)
 
 Attach the resistors with following colors from left to right:
 
 - brown, green, black, brown, brown
 
-<img src="img/plaid-pad-resistors-1.5k-1.jpg" maxheight=400>
+<img src="img/plaid-pad-resistors-1.5k-1.jpg" maxheight=400> <img src="img/plaid-pad-resistors-1.5k-2.jpg" maxheight=400>
 
 ### Resistors 75 Ohm (R2, R3)
 
@@ -52,7 +52,7 @@ Attach the resistors with following colors from left to right:
 
 <img src="img/plaid-pad-resistors-10k-1.jpg" maxheight=400>
 
-### Resistors 5.1k Ohm (R9, R10)
+### Resistors 5.1k Ohm (R8, R9)
 
 Attach the resistors with following colors from left to right:
 
@@ -67,12 +67,13 @@ A magnifier is handy for this task.
 
 <img src="img/plaid-pad-usb-c-connector-1.jpg" maxheight=400>
 
-### LEDs (LED1, LED2)
+### Optional: LED (LED1)
 
 The LEDs are __polarized__. The short leg is the cathode which needs to be attached to the square pad on the PCB
 
 `LED1` indicates that the Plaid-Pad is powered and constantly on.
-I prefer to solder the red LED on `LED1`, because the LED is less bright.
+
+If you don't want a constant red light on your Plaid-Pad, don't solder this LED.
 
 <img src="img/plaid-pad-leds-1.jpg" maxheight=400>
 
@@ -108,6 +109,16 @@ The ATMEGA328 has to be attached in a __specific direction__. Check the notch on
 
 <img src="img/plaid-pad-atmega329p-1.jpg" maxheight=400>
 
+### Oled display (SSD1306)
+
+Add isolation tape to the back of the oled, to protect the components for shorts.
+
+<img src="img/plaid-pad-oled-ssd1306-1.jpg" maxheight=400>
+
+Place the oled like on the image and solder it from the bottom to the PCB.
+
+<img src="img/plaid-pad-oled-ssd1306-2.jpg" maxheight=400>
+
 ## Check list before connecting USB
 
 - No short cuts on the USB-C connector pads
@@ -124,19 +135,28 @@ Check whether all switches will work. In order to do so, short the solder pads w
 
 <img src="img/plaid-pad-tweezers-switch-test-1.jpg" maxheight=400>
 
+## Optional Mill-Max Holtites
 
-## Case assembly 
+The Plaid-Pad supports [Mill-Max 0305 Holtites](https://keycapsss.com/keyboard-parts/parts/73/mill-max-0305-holtite-for-switches-hotswap-sockets?number=KC10042_50x). If these are installed, you can Hotswap the switches (change without soldering).
 
-### Rev2 only (Rev2.1 [skip](#rev21) this step)
- 
+Put the holtite in the related holes.
+
+
+<img src="img/plaid-pad-mill-max-0305-holtite-2.jpg" maxheight=400>
+
+Install all switches to the top plate. Check that all switch pins are straight and press the top plate with switches on the PCB with the holtites.
+
+Pay attention that no solder flows into the holtite.
+
+<img src="img/plaid-pad-mill-max-0305-holtite-3.jpg" maxheight=400>
+
+## Case assembly
+
 __Before you solder the switches,__ attach the 4x 5mm spacer to the pcb with the M2x4mm screws.  
 __Do not solder the rotary encoder yet.__
 
 <img src="img/plaid-pad-top-plate-1.jpg" maxheight=400> <img src="img/plaid-pad-top-plate-2.jpg" maxheight=400>
 
----
-
-### Rev2.1
 
 Attach all switches to the top plate and place __(not solder)__ the desired amount of the rotary encoder on the pcb ([more information about rotary encoder placement](https://github.com/BenRoe/Plaid-Pad#keymap)).
 
@@ -158,12 +178,15 @@ __Ensure that there is no gap between the switch bottom and the pcb. Same for th
 
 <img src="img/plaid-pad-top-plate-4.jpg" maxheight=400>
 
-Attach the spacer to the bottom plate.  
-Optional: Put the dampening foam on the bottom plate.
-
-Put the assembled top plate with the switches and pcb on the bottom plate.
+Screw the 4x 5mm spacer at the upper part of the bottom plate. Use the 12mm screws for it. 
 
 <img src="img/plaid-pad-bottom-plate-1.jpg" maxheight=400>
+
+Optional: Put the dampening foam on the bottom plate.
+
+<img src="img/plaid-pad-bottom-plate-2.jpg" maxheight=400>
+
+Put the assembled top plate with the switches and pcb on the bottom plate.  
 
 Screw the 4x 10mm spacer for the guard plate on 12mm prominent screws from below.
 Remove the protection film on both sides from the acrylic guard plate.

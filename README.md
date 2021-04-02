@@ -92,11 +92,17 @@ You can find the rotary encoder code [here](https://github.com/qmk/qmk_firmware/
 - Release RESET switch
 - Release BOOT switch
 
-or an alternative method:
+alternative method:
 - Unplug the USB cable
 - Hold down the BOOT switch
 - Plug in the USB cable
 - Release the BOOT switch
+
+alternative method ([Bootmagic Lite](https://docs.qmk.fm/#/feature_bootmagic?id=bootmagic-lite)):
+- Unplug the USB cable
+- Hold down the most top left key
+- Plug in the USB cable
+- Release the most top left key
 
 If you succeed to enter bootloader mode, you can see usbasp in device manager, or `*** USBAsp device connected` in [QMK Toolbox](https://github.com/qmk/qmk_toolbox).
 
@@ -118,3 +124,10 @@ If you succeed to enter bootloader mode, you can see usbasp in device manager, o
 * Bigger solder pads for the USB-C connector
 * Support for Choc V2 switches _(issue that the keycap touch the mounting screw, if bottoming out)_
 * Changed case mounting style _(spacer go through the pcb and screwed on the top and bottom plate)_
+
+### Rev3
+
+* Support for a SSD1306 oled display (I2C Pins C4/C5)
+* Removed the 2 indicator LEDs (Pin C4/C5)
+* Added a power indicator LED
+* Changed case mounting style back to the previous style (spacer mounted between mid PCB and bottom plate) - fix ChocV2 issue from REV2.1
