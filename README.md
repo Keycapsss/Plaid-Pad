@@ -50,7 +50,17 @@ It's a great companion to the Plaid keyboard by [hsgw](https://github.com/hsgw/)
 ## QMK Firmware
 _Bootloader ([USBaspLoader](https://github.com/baerwolf/USBaspLoader)) and Firmware ([via keymap](https://github.com/qmk/qmk_firmware/tree/master/keyboards/keycapsss/plaid_pad)) are already on the ATmega328P chip._
 
-### QMK with VIA support
+### QMK with VIAL support (support for rotary encoder)
+
+_Plaid-Pad Kit's Rev3 shipped with preflashed VIAL firmware._
+_If you have a Rev2 Plaid-Pad, or want to re-flash the VIAL firmware again, you can find a compiled firmware file here ([Rev2](keycapsss_plaid_pad_rev2_vial.hex), [Rev3](keycapsss_plaid_pad_rev3_vial.hex))
+
+1. Flash pre-compiled firmware on the Plaid-Pad with [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) ([How to enter Bootloader Mode](#enter-bootloader-mode-to-flash-a-new-firmware)).
+2. Download the VIAL software from [here](https://get.vial.today)
+3. Connect the Plaid-Pad to the computer with a USB cable (Reconnect after flashing the firmware)
+4. Open VIAL and change the keymap to your needs (automatic save)
+
+### QMK with VIA support (no rotary encoder support)
 
 _Plaid-Pad Kit's shipped before 11.09.2020 are flashed with the QMK Default Keymap._
 _To use VIA, compile the VIA Keymap with the following command and flash it with [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) on the Plaid-Pad ([enter Bootloader Mode](#enter-bootloader-mode-to-flash-a-new-firmware))._
