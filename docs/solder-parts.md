@@ -192,11 +192,13 @@ Screw the 4x 10mm spacer for the guard plate on 12mm prominent screws from below
 Remove the protection film on both sides from the acrylic guard plate.
 Fix the acrylic guard plate and the pcb with the 4mm screws.
 
+__Do not overtighten the screws, the acrylic plate can break.__
+
 <img src="img/plaid-pad-final-1.jpg" width=600>
 
 Put the rubber feeds on the back of the Plaid-Pad.
 
-__The assembly is done.__
+__The assembly is done.__ 🥳
   
 You can change the keymap with [VIA](../README.md#qmk-with-via-support-no-rotary-encoder-support)(**no** rotary encoder support), [VIAL](https://get.vial.today)(with rotary encoder support), 
 or change the [QMK keymap](https://github.com/BenRoe/Plaid-Pad#qmk-default-keymap) file and reflash the firmware.
