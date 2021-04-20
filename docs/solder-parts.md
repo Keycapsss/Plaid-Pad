@@ -40,7 +40,7 @@ Attach the resistors with following colors from left to right:
 
 Attach the resistors with following colors from left to right:
 
-- purple, green, black, gold, brown
+- brown, gold, black, green, purple
 
 <img src="img/plaid-pad-resistors-75-1.jpg" width=600>
 
