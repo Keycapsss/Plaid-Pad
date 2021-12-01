@@ -6,12 +6,12 @@ A 4x4 numpad/macro pad with only through hole components. It supports up to 4 ro
 
 ---
 
-- [**Build guide**](/docs/solder-parts.md)
+- [**Build guide**](./buildguide_en.md)
 - [QMK Firmware](#qmk-firmware)
 - [Bootloader](#bootloader)
 - [Changelog](#changelog)
-- [3D printing parts](/3d-print) (simple case)
-- [Laser cut drawings](/lasercut) (guard plate, dampening foam)
+- [3D printing parts](./3d-print) (simple case)
+- [Laser cut drawings](./lasercut) (guard plate, dampening foam)
 
 ---
 

@@ -201,5 +201,5 @@ Put the rubber feeds on the back of the Plaid-Pad.
 
 __The assembly is done.__ 🥳
   
-You can change the keymap with [VIA](../README.md#qmk-with-via-support-no-rotary-encoder-support)(**no** rotary encoder support), [VIAL](https://get.vial.today)(with rotary encoder support),
+You can change the keymap with [VIA](./README.md#qmk-with-via-support-no-rotary-encoder-support)(**no** rotary encoder support), [VIAL](https://get.vial.today)(with rotary encoder support),
 or change the [QMK keymap](https://github.com/BenRoe/Plaid-Pad#qmk-default-keymap) file and reflash the firmware.
