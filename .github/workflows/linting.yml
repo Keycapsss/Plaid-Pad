@@ -1,0 +1,20 @@
+name: Housekeeping
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  linting:
+    name: "Markdown linting"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v2
+      - name: Lint all markdown files
+        uses: docker://avtodev/markdown-lint:v1
+        with:
+          args: "**/*.md"
+          ignore: "**/node_modules/**"
