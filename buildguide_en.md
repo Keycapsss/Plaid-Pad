@@ -1,5 +1,7 @@
 # Build guide for the Plaid-Pad
 
+## Solder the through hole parts
+
 ### Diodes 1N4148 (D1-D16)
 
 Diodes are __polarized__. The black line on the diode (cathode) must face the squared solder pad.
@@ -125,7 +127,8 @@ Place the oled like on the image and solder it from the bottom to the PCB.
 - Direction of polarized and directional components is correct (ATMEGA328p, diode, resettable fuse, electrolytic capacitor, LEDs)
 - Resistors with correct values are attached to the target locations
 
-## Test 
+## Test
+
 _Bootloader and Firmware (VIA keymap) are already on the ATmega328P chip.  
 Everything should work after soldering._
 
@@ -141,7 +144,6 @@ The Plaid-Pad supports [Mill-Max 0305 Holtites](https://keycapsss.com/keyboard-p
 
 Put the holtite in the related holes.
 
-
 <img src="img/plaid-pad-mill-max-0305-holtite-2.jpg" width=600>
 
 Install all switches to the top plate. Check that all switch pins are straight and press the top plate with switches on the PCB with the holtites.
@@ -156,7 +158,6 @@ __Before you solder the switches,__ attach the 4x 5mm spacer to the pcb with the
 __Do not solder the rotary encoder yet.__
 
 <img src="img/plaid-pad-top-plate-1.jpg" width=600> <img src="img/plaid-pad-top-plate-2.jpg" width=600>
-
 
 Attach all switches to the top plate and place __(not solder)__ the desired amount of the rotary encoder on the pcb ([more information about rotary encoder placement](https://github.com/BenRoe/Plaid-Pad#keymap)).
 
@@ -174,11 +175,11 @@ If you use Choc (low profile) switches, you have to bend the 5 pins of the rotar
 
 Put the top plate with the switches on the front side of the pcb.  
 Solder the switches and rotary encoder from the bottom side.  
-__Ensure that there is no gap between the switch bottom and the pcb. Same for the encoder.__ 
+__Ensure that there is no gap between the switch bottom and the pcb. Same for the encoder.__
 
 <img src="img/plaid-pad-top-plate-4.jpg" width=600>
 
-Screw the 4x 5mm spacer at the upper part of the bottom plate. Use the 12mm screws for it. 
+Screw the 4x 5mm spacer at the upper part of the bottom plate. Use the 12mm screws for it.
 
 <img src="img/plaid-pad-bottom-plate-1.jpg" width=600>
 
@@ -200,5 +201,5 @@ Put the rubber feeds on the back of the Plaid-Pad.
 
 __The assembly is done.__ 🥳
   
-You can change the keymap with [VIA](../README.md#qmk-with-via-support-no-rotary-encoder-support)(**no** rotary encoder support), [VIAL](https://get.vial.today)(with rotary encoder support), 
+You can change the keymap with [VIA](../README.md#qmk-with-via-support-no-rotary-encoder-support)(**no** rotary encoder support), [VIAL](https://get.vial.today)(with rotary encoder support),
 or change the [QMK keymap](https://github.com/BenRoe/Plaid-Pad#qmk-default-keymap) file and reflash the firmware.
