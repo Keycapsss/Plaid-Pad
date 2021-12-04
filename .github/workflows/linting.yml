@@ -1,4 +1,4 @@
-name: Housekeeping
+name: Linting
 
 on:
   push:
@@ -7,12 +7,20 @@ on:
     branches: [main, master]
 
 jobs:
-  linting:
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-quiet-mode: 'yes'
+  markdownlint:
     name: "Markdown linting"
     runs-on: ubuntu-latest
     steps:
-      - name: Check out the code
+      - name: Checkout
         uses: actions/checkout@v2
+
       - name: Lint all markdown files
         uses: docker://avtodev/markdown-lint:v1
         with:

@@ -1,0 +1,22 @@
+{
+  "name": "plaid-pad-build-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": " ",
+  "scripts": {
+    "test:links": "for file in $(find . -path ./node_modules -prune -false -o -name \"*.md\"); do markdown-link-check --quiet \"$file\" || exit 1; done;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://benroe@github.com/BenRoe/Plaid-Pad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenRoe/Plaid-Pad/issues"
+  },
+  "homepage": "https://github.com/BenRoe/Plaid-Pad#readme",
+  "devDependencies": {
+    "markdown-link-check": "^3.9.0"
+  }
+}
