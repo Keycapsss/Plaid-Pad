@@ -203,3 +203,88 @@ __The assembly is done.__ 🥳
   
 You can change the keymap with [VIA](./README.md#qmk-with-via-support-no-rotary-encoder-support) (**no** rotary encoder support), [VIAL](https://get.vial.today) (with rotary encoder support),
 or change the [QMK keymap](https://github.com/BenRoe/Plaid-Pad#qmk-default-keymap) file and reflash the firmware.
+
+## How to flash the firmware
+
+### QMK with VIAL support (support for rotary encoder)
+
+_Plaid-Pad Kit's Rev3 shipped with preflashed VIAL firmware._
+
+If you have a Rev2 Plaid-Pad, or want to re-flash the VIAL firmware again, you can find a compiled firmware file here ([Rev2]([keycapsss_plaid_pad_rev2_vial.hex](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Keycapsss/Plaid-Pad/blob/master/keycapsss_plaid_pad_rev2_vial.hex)), [Rev3]([keycapsss_plaid_pad_rev3_vial.hex](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Keycapsss/Plaid-Pad/blob/master/keycapsss_plaid_pad_rev3_vial.hex)))
+
+1. Flash pre-compiled firmware on the Plaid-Pad with [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) ([How to enter Bootloader Mode](#enter-bootloader-mode-to-flash-a-new-firmware)).
+2. Download the VIAL software from [here](https://get.vial.today)
+3. Connect the Plaid-Pad to the computer with a USB cable (Reconnect after flashing the firmware)
+4. Open VIAL and change the keymap to your needs (automatic save)
+
+### QMK with VIA support (no rotary encoder support)
+
+To use VIA, compile the VIA Keymap with the following command and flash it with [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) on the Plaid-Pad ([enter Bootloader Mode](#enter-bootloader-mode-to-flash-a-new-firmware)).
+
+```bash
+qmk compile -kb keycapsss/plaid_pad -km via
+```
+
+1. Download the VIA software from [here](https://github.com/the-via/releases/releases/latest)
+2. Connect the Plaid-Pad to the computer with a USB cable
+3. Open VIA, switch to the `CONFIGURE` tab and change the keymap to your needs (automatic save)
+
+_The current VIA version can't change the rotary encoder function._
+
+### QMK Default Keymap
+
+Make example for this keyboard (after [setting up your build environment](https://docs.qmk.fm/#/getting_started_build_tools)):
+
+```bash
+make keycapsss/plaid_pad:default
+```
+
+or
+
+```bash
+qmk compile -kb keycapsss/plaid_pad -km default
+```
+
+Flashing example for this keyboard:
+
+```bash
+make keycapsss/plaid_pad:default:flash
+```
+
+or
+
+```bash
+qmk flash -kb keycapsss/plaid_pad -km default
+```
+
+See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with the [Complete Newbees Guide](https://docs.qmk.fm/#/syllabus).
+
+You can find the rotary encoder code [here](https://github.com/qmk/qmk_firmware/blob/95bbd799a4f86dac37fdf2354e008d2fed7f6660/keyboards/keycapsss/plaid_pad/keymaps/via/keymap.c#L71).
+
+## Bootloader
+
+- same `usbasploader` as used for Plaid ([Instructions](https://github.com/hsgw/plaid/blob/master/doc/en/bootloader.md), [Repository](https://github.com/hsgw/USBaspLoader/tree/plaid))
+
+### Enter Bootloader Mode (to flash a new firmware)
+
+- Plug in the USB cable
+- Push and hold RESET switch
+- Push and hold BOOT switch
+- Release RESET switch
+- Release BOOT switch
+
+alternative method:
+
+- Unplug the USB cable
+- Hold down the BOOT switch
+- Plug in the USB cable
+- Release the BOOT switch
+
+alternative method ([Bootmagic Lite](https://docs.qmk.fm/#/feature_bootmagic?id=bootmagic-lite)):
+
+- Unplug the USB cable
+- Hold down the most top left key
+- Plug in the USB cable
+- Release the most top left key
+
+If you succeed to enter bootloader mode, you can see usbasp in device manager, or `*** USBAsp device connected` in [QMK Toolbox](https://github.com/qmk/qmk_toolbox).
