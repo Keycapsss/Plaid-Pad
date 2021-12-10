@@ -5,7 +5,7 @@
 ### Diodes 1N4148 (D1-D16)
 
 Diodes are __polarized__. The black line on the diode (cathode) must face the squared solder pad.
-The 1N4148 diodes look similar as Zener diodes - so make sure that you do not confuse both diodes.
+The 1N4148 diodes look similar as Zener diodes - so make sure that you don't confuse both diodes.
 
 You can use some tape, as show in the image, to hold the diodes in place and solder all in one pass.
 
@@ -14,7 +14,7 @@ You can use some tape, as show in the image, to hold the diodes in place and sol
 ### Zener diodes (D49, D50)
 
 The diodes are __polarized__ where the black line on the diode (cathode) must face the squared solder pad.
-The 1N4148 diodes look similar as Zener diodes - so make sure that you do not confuse both diodes.
+The 1N4148 diodes look similar as Zener diodes - so make sure that you don't confuse both diodes.
 
 <img src="img/plaid-pad-zener-diodes-1.jpg" width=600>
 
@@ -111,13 +111,13 @@ The ATMEGA328 has to be attached in a __specific direction__. Check the notch on
 
 <img src="img/plaid-pad-atmega329p-1.jpg" width=600>
 
-### Oled display (SSD1306)
+### OLED display (SSD1306)
 
-Add isolation tape to the back of the oled, to protect the components for shorts.
+Add isolation tape to the back of the OLED, to protect the components for shorts.
 
 <img src="img/plaid-pad-oled-ssd1306-1.jpg" width=600>
 
-Place the oled like on the image and solder it from the bottom to the PCB.
+Place the OLED like on the image and solder it from the bottom to the PCB.
 
 <img src="img/plaid-pad-oled-ssd1306-2.jpg" width=600>
 
@@ -134,11 +134,11 @@ Everything should work after soldering._
 
 Connect the Plaid-Pad to your computer and open the [QMK-Test-Site](https://config.qmk.fm/#/test).
 
-Check whether all switches will work. In order to do so, short the solder pads with tweezers.
+Check whether all switches will work. To do so, short the solder pads with tweezers.
 
 <img src="img/plaid-pad-tweezers-switch-test-1.jpg" width=600>
 
-## Optional Mill-Max Holtites
+## Optional Mill-Max holtites
 
 The Plaid-Pad supports [Mill-Max 0305 Holtites](https://keycapsss.com/keyboard-parts/parts/73/mill-max-0305-holtite-for-switches-hotswap-sockets?number=KC10042_50x). If these are installed, you can Hotswap the switches (change without soldering).
 
@@ -155,7 +155,7 @@ Pay attention that no solder flows into the holtite.
 ## Case assembly
 
 __Before you solder the switches,__ attach the 4x 5mm spacer to the pcb with the M2x4mm screws.  
-__Do not solder the rotary encoder yet.__
+__Don't solder the rotary encoder yet.__
 
 <img src="img/plaid-pad-top-plate-1.jpg" width=600> <img src="img/plaid-pad-top-plate-2.jpg" width=600>
 
@@ -179,7 +179,7 @@ __Ensure that there is no gap between the switch bottom and the pcb. Same for th
 
 <img src="img/plaid-pad-top-plate-4.jpg" width=600>
 
-Screw the 4x 5mm spacer at the upper part of the bottom plate. Use the 12mm screws for it.
+Screw the 4x 5mm spacer at the upper part of the bottom plate. Use the 12mm (10mm) screws for it.
 
 <img src="img/plaid-pad-bottom-plate-1.jpg" width=600>
 
@@ -189,11 +189,11 @@ Optional: Put the dampening foam on the bottom plate.
 
 Put the assembled top plate with the switches and pcb on the bottom plate.  
 
-Screw the 4x 10mm spacer for the guard plate on 12mm prominent screws from below.
+Screw the 4x 10mm spacer for the guard plate on 12mm (10mm) prominent screws from below.
 Remove the protection film on both sides from the acrylic guard plate.
 Fix the acrylic guard plate and the pcb with the 4mm screws.
 
-__Do not overtighten the screws, the acrylic plate can break.__
+__Don't overtighten the screws, the acrylic plate can break.__
 
 <img src="img/plaid-pad-final-1.jpg" width=600>
 
@@ -201,5 +201,5 @@ Put the rubber feeds on the back of the Plaid-Pad.
 
 __The assembly is done.__ 🥳
   
-You can change the keymap with [VIA](./README.md#qmk-with-via-support-no-rotary-encoder-support)(**no** rotary encoder support), [VIAL](https://get.vial.today)(with rotary encoder support),
+You can change the keymap with [VIA](./README.md#qmk-with-via-support-no-rotary-encoder-support) (**no** rotary encoder support), [VIAL](https://get.vial.today) (with rotary encoder support),
 or change the [QMK keymap](https://github.com/BenRoe/Plaid-Pad#qmk-default-keymap) file and reflash the firmware.
