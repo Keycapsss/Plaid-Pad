@@ -55,7 +55,7 @@ _Bootloader ([USBaspLoader](https://github.com/baerwolf/USBaspLoader)) and Firmw
 ### QMK with VIAL support (support for rotary encoder)
 
 _Plaid-Pad Kit's Rev3 shipped with preflashed VIAL firmware._
-_If you have a Rev2 Plaid-Pad, or want to re-flash the VIAL firmware again, you can find a compiled firmware file here ([Rev2](keycapsss_plaid_pad_rev2_vial.hex), [Rev3](keycapsss_plaid_pad_rev3_vial.hex))
+_If you have a Rev2 Plaid-Pad, or want to re-flash the VIAL firmware again, you can find a compiled firmware file here ([Rev2]([keycapsss_plaid_pad_rev2_vial.hex](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Keycapsss/Plaid-Pad/blob/master/keycapsss_plaid_pad_rev2_vial.hex)), [Rev3]([keycapsss_plaid_pad_rev3_vial.hex](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Keycapsss/Plaid-Pad/blob/master/keycapsss_plaid_pad_rev3_vial.hex)))
 
 1. Flash pre-compiled firmware on the Plaid-Pad with [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) ([How to enter Bootloader Mode](#enter-bootloader-mode-to-flash-a-new-firmware)).
 2. Download the VIAL software from [here](https://get.vial.today)
@@ -71,7 +71,7 @@ _To use VIA, compile the VIA Keymap with the following command and flash it with
 qmk compile -kb keycapsss/plaid_pad -km via
 ```
 
-1. Download the VIA software from [here](https://github.com/the-via/releases/releases/tag/v1.3.1)
+1. Download the VIA software from [here](https://github.com/the-via/releases/releases/latest)
 2. Connect the Plaid-Pad to the computer with a USB cable
 3. Open VIA, switch to the `CONFIGURE` tab and change the keymap to your needs (automatic save)
 
@@ -103,7 +103,7 @@ or
 qmk flash -kb keycapsss/plaid_pad -km default
 ```
 
-See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with the [Complete Newbees Guide](https://docs.qmk.fm/#/syllabus).
 
 You can find the rotary encoder code [here](https://github.com/qmk/qmk_firmware/blob/95bbd799a4f86dac37fdf2354e008d2fed7f6660/keyboards/keycapsss/plaid_pad/keymaps/via/keymap.c#L71).
 
